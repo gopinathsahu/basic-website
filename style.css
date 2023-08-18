@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50% ,rgba(0,0,0,0.5)50%),url(eee.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 75px;
+}
+.logo{
+    color: orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-style: italic;
+    padding: 10PX 0 0 20PX;
+    float: left;
+}
+.menu{
+   
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ ul{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ ul li{
+    list-style: none;
+    margin-left: 50px;
+    margin-top: 30px;
+    font-size: medium;
+}
+ul li a{
+    text-decoration: none;
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    transition: .4s ease-in-out;
+}
+ ul  li a:hover{
+    color: orange;
+
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 300px;
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+   
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.btn{
+    
+    width: 100%;
+    height: 40px;
+    background: orange;
+    border: 2px solid orange;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline :none;
+}
+.content{
+     width: 1200px;
+    height: auto;
+    margin: 0;
+    color: rgb(225, 230, 235);
+    position: relative;
+}
+.content.para{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    color: cornflowerblue;
+}
+.content h1{
+    font-size:50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-left: 20px;
+      color: black;
+    letter-spacing: 2px;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 25px;
+    border-radius: 10px;
+    cursor: pointer;
+   
+}
+.content.cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+.cn:hover{
+    background-color: aliceblue;
+    color: orange;
+}
